@@ -1,6 +1,8 @@
 import React from 'react';
 import Logo from '../../assets/img/lutubeLogo.png';
 import './Menu.css';
+import Button from '../Button';
+
 
 function Menu(){
 return (
@@ -8,6 +10,9 @@ return (
     <a href='/'>
     <img className='Logo' src={Logo} alt='lutube logo' />
     </a>
+    <Button as="a" className="ButtonLink" href="/">
+        Novo video
+    </Button>
 </nav>
 
 );
