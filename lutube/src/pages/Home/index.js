@@ -1,17 +1,17 @@
 import React from 'react';
-import Menu from './components/menu';
-import Footer from './components/Footer';
-import Carousel from './components/Carousel';
-import dadosIniciais from './data/dados_iniciais.json';
-import BannerMain from './components/BannerMain'
+import Menu from '../../components/menu';
+import Footer from '../../components/Footer';
+import Carousel from '../../components/Carousel';
+import dadosIniciais from '../../data/dados_iniciais.json';
+import BannerMain from '../../components/BannerMain'
 
-function App() {
+function Home() {
 
   
   return (
     
     
-    <div>
+    <div style={{background:'#141414'}}>
        <Menu />
        <BannerMain videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
   videoDescription={dadosIniciais.categorias[0].videos[0].titulo}
@@ -31,4 +31,4 @@ function App() {
   );
 };
 
-export default App;
+export default Home;
