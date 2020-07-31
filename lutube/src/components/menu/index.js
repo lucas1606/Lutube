@@ -4,6 +4,7 @@ import './Menu.css';
 import Button from '../Button';
 import { Link } from 'react-router-dom';
 
+// troca tag  Por Link, e troca href por to
 function Menu(){
 return (
 <nav className='Menu'>
