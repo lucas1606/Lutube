@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <link rel="icon" href="http://localhost:3000/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="http://localhost:3000/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <link rel="stylesheet" href="React%20App_arquivos/slick.css">
+    <link rel="stylesheet" href="React%20App_arquivos/slick-theme.css">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  <style type="text/css">
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --primary: #2A7AE4;
+  --black: #000000;
+  --blackLighter: #9E9E9E;
+  --grayLight: #F5F5F5;
+  --grayMedium: #e5e5e5; 
+  --white: #FFFFFF;
+  --frontEnd: #6BD1FF;
+  --backEnd: #00C86F;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+} 
+
+#root {
+min-height: calc(100vh - var(--bodyPaddingTop));
+display: flex;
+flex-direction: column;
+}</style><style type="text/css">
+.Logo {
+    max-width: 168px;
+  }
+  @media (max-width: 800px) {
+    .Logo {
+      max-width: 105px;
+    }
+  }
+  
+  .Menu {
+    width: 100%;
+    height: 94px;
+    z-index: 100;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+  
+    background: var(--black);
+    border-bottom: 2px solid var(--primary);
+  }
+  body {
+    --bodyPaddingTop: 94px;
+    padding-top: var(--bodyPaddingTop);
+  }
+  @media (max-width: 800px) {
+    .Menu {
+      height: 40px;
+      justify-content: center;
+    }
+    body {
+      --bodyPaddingTop: 40px;
+      padding-top: var(--bodyPaddingTop);
+    }
+  }
+  
+  .ButtonLink {
+    color: var(--white);
+    border: 1px solid var(--white);
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 16px 24px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: opacity .3s;
+  }
+  .ButtonLink:hover,
+  .ButtonLink:focus {
+    opacity: .5;
+  }
+  
+  @media (max-width: 800px) {
+    a.ButtonLink {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: var(--primary);
+      border-radius: 0;
+      border: 0;
+      text-align: center;
+    }
+  }</style><style data-styled="active" data-styled-version="5.1.1">.fTRieg{color:var(--white);border:1px solid var(--white);box-sizing:border-box;cursor:pointer;padding:16px 24px;font-style:normal;font-weight:bold;font-size:16px;outline:none;border-radius:5px;-webkit-text-decoration:none;text-decoration:none;display:inline-block;-webkit-transition:opacity .3s;transition:opacity .3s;}.fTRieg:hover,.fTRieg:focus{opacity:.5;}.fNnFmP{background:var(--black);border-top:2px solid var(--primary);padding-left:16px;padding-right:16px;padding-top:32px;padding-bottom:32px;color:var(--white);text-align:center;}@media (max-width:800px){.fNnFmP{margin-bottom:50px;}}.hhBvRB{background-color:var(--black);color:var(--white);-webkit-flex:1;-ms-flex:1;flex:1;padding-top:50px;padding-left:5%;padding-right:5%;}</style></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><nav class="Menu"><a href="http://localhost:3000/"><img class="Logo" src="React%20App_arquivos/lutubeLogo.png" alt="lutube logo"></a><a class="sc-AxjAm fTRieg ButtonLink" href="http://localhost:3000/cadastro/cadastro/video">Novo video</a></nav><main class="sc-fzqNJr hhBvRB"><h1>Cadastro de Categoria: Categoria Inicial</h1><form><div><label>Nome da Categoria:<input type="text" name="nome"></label></div><div><label>Descrição:<textarea type="text" name="descricao">Descrição Inicial</textarea></label></div><div><label>Cor:<input type="color" name="cor" value="#000000"></label></div><button>Cadastrar</button></form><ul><li></li></ul><a href="http://localhost:3000/">Ir para home</a></main><footer class="sc-AxirZ fNnFmP"><a href="https://www.alura.com.br/"><img src="React%20App_arquivos/alura-logo-white.svg" alt="Logo Alura"></a><p>Orgulhosamente criado durante a <a href="https://www.alura.com.br/">Imersão React da Alura</a></p></footer></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script src="React%20App_arquivos/bundle.js"></script><script src="React%20App_arquivos/1.js"></script><script src="React%20App_arquivos/main.js"></script><script src="React%20App_arquivos/main_002.js"></script>
+
+</body></html>
