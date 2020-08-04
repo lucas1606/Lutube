@@ -1,0 +1,16 @@
+{
+    "categorias":[
+        {
+     "id": 1,       
+    "nome": "Front End",
+    "descricao": "Ensinando a fazer categorias lindas",
+    "cor": "#cbd1fdf"
+        },
+        {
+     "id": 2,       
+    "nome": "Back End",
+    "descricao": "Ensinando a fazer programainhas marotos",
+    "cor": "#cbd1fdf"
+               }
+    ]
+}
